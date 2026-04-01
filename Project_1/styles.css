@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'RobotoExtraBold';
+    src: url(fonts/Roboto-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoLightItalic';
+    src: url(fonts/Roboto-LightItalic.ttf) format('truetype');
+}
+
+h2 {
+    font-family: 'RobotoExtraBold', sans-serif;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.quote {
+    font-family: 'RobotoLightItalic', sans-serif;
+    color: #1F2937;
+    font-size: 36px;
+}
