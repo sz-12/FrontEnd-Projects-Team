@@ -55,7 +55,6 @@ h2 {
 .box {
     width: 120px;
     height: 120px;
-    /* border: 3px solid #3882F6; */
     border-radius: 10px;
     overflow: hidden;
 }
@@ -93,6 +92,7 @@ a {
 
 .action {
     font-family: 'RobotoLight', sans-serif;
+    padding-bottom: 64px;
 }
 
 .action-style {
@@ -116,12 +116,12 @@ a {
 }
 
 button {
+    font-family: 'RobotoBold', sans-serif;
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
     border:2px solid #F9FAF8;
     padding: 8px 24px;
-    font-weight: bold;
 }
 
 @media (max-width: 768px) {
