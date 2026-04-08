@@ -66,43 +66,35 @@
     color: #F9FAF8;
 }
 
-.about-content {
-    padding: 64px 0;
-    text-align: center;
+.contact-hero {
     color: #1F2937;
+    text-align: center;
+    padding: 48px 0;
 }
 
-.about-content h2 {
-    font-family: 'RobotoBold', sans-serif;
-}
-
-.about-content p {
-    font-family: 'RobotoRegular', sans-serif;
-    max-width: 700px;
-    margin: 10px auto;
-    font-size: 18px;
-}
-
-.about-values {
-    padding-bottom: 64px;
-}
-
-.values {
-    font-family: 'RobotoBold', sans-serif;
+.contact-form {
+    padding: 24px 0;
     display: flex;
     justify-content: center;
-    gap: 40px;
-    padding: 48px;
+}
+
+.form-box {
     background-color: #E5E7EB;
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;
 }
 
-.value {
-    max-width: 200px;
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-info {
     text-align: center;
-}
-
-.value p {
-    font-family: 'RobotoLightItalic', sans-serif;
+    padding: 40px;
 }
 
 .action {

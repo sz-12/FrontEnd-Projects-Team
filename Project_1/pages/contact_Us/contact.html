@@ -3,22 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="contact.css">
     <title>Contact Us</title>
 </head>
 <body>
-    <header>
-
+    <header class="header">
+        <div class="header-content">
+            <h1>Contact Us</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../products.html">Products</a></li>
+                    <li><a href="../about_Us/about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section>
-            <p>This page contains Contact us details - done by Aish</p>
+        <section class="contact-hero">
+            <h1>Get in Touch</h1>
+            <p>We would love to hear about your favorite scents and ideas.</p>
+        </section>
+
+        <section class="contact-form">
+            <div class="form-box">
+                <h2>Send us a message</h2>
+                <form>
+                    <input type="text" placeholder="Your Name"><br><br>
+                    <input type="email" placeholder="Your Email"><br><br>
+
+                    <label>What are you interested in?</label><br>
+                    <select>
+                        <option>Soaps</option>
+                        <option>Candles</option>
+                        <option>Perfumes</option>
+                    </select><br><br>
+                    <p>Choose your vibe:</p>
+                    <input type="radio" name="vibe"> Relaxing<br>
+                    <input type="radio" name="vibe"> Fresh<br>
+                    <input type="radio" name="vibe"> Romantic<br><br>
+                    <textarea rows="4" placeholder="Your message..."></textarea><br><br>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="contact-info">
+            <h2>Reach Us</h2>
+            <p>Email: abcd@scent.com</p>
+            <p>Phone: +49 123 456789</p>
+        </section>
+
+        <section class="action">
+            <div class="action-style">
+                <div class="action-text">
+                    <h3>Discover our collection</h3>
+                    <p>Explore handcrafted products made with care.</p>
+                </div>
+                <a href="../index.html">
+                    <button>View Products</button>
+                </a>
+            </div>
         </section>
     </main>
-    
-    <footer>
 
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 PureLoom Naturals. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
