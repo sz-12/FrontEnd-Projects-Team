@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'RobotoExtraBold';
-    src: url(fonts/Roboto-ExtraBold.ttf) format('truetype');
+    src: url(fonts/Roboto-Black.ttf) format('truetype');
 }
 
 @font-face {
@@ -8,14 +8,109 @@
     src: url(fonts/Roboto-LightItalic.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'RobotoLight';
+    src: url(fonts/Roboto-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url(fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url(fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+.info-section {
+    padding-bottom: 64px;
+}
+
 h2 {
     font-family: 'RobotoExtraBold', sans-serif;
     color: #1F2937;
     font-size: 36px;
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.card p {
+    font-family: 'RobotoRegular', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.quote-section {
+    padding-bottom: 64px;
+}
+
+.quotes {
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding: 64px;
 }
 
 .quote {
     font-family: 'RobotoLightItalic', sans-serif;
-    color: #1F2937;
     font-size: 36px;
+}
+
+.quote-author {
+    font-family: 'RobotoBold', sans-serif;
+    text-align: right;
+    font-size: 24px;
+}
+
+.action {
+    font-family: 'RobotoLight', sans-serif;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.action-style {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 48px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border:2px solid #F9FAF8;
+    padding: 4px 16px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
 }
