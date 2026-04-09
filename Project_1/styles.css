@@ -124,6 +124,12 @@ button {
     padding: 8px 24px;
 }
 
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
