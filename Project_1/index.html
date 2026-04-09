@@ -1,17 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Shopping website</title>
-</head>
-<body>
-    <header>
-        <!-- Sara's part -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">PureLoom Naturals</div>
+          <nav class="nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="pages/about.html">About</a></li>
+              <li><a href="pages/products.html">Products</a></li>
+              <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
 
     <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h1 class="hero-title">Your Daily Reset, Naturally Made</h1>
+              <p class="hero-subtitle">
+                Hydrating handmade soaps, clean-burning soy candles, and refined perfumes—made for daily rituals.
+              </p>
+              <button class="btn btn-primary">Shop Now</button>
+            </div>
+            <div class="hero-image">
+              <img
+                src="images/backgroundimage.png"
+                alt="Handcrafted Organic Soaps & Candles"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
         <section class="info-section">
             <h2>When scent meets expectations</h2>
             <div class="cards">
@@ -54,11 +85,11 @@
                 </a>
             </div>
         </section>
-    </main>
-
-    <footer>
-        <!-- Sara's part -->
-    </footer>
-    
-</body>
+    </main> 
+      <footer class="footer">
+        <div class="container">
+          <p>&copy; 2026 PureLoom Naturals. All rights reserved.</p>
+        </div>
+      </footer>
+  </body>
 </html>

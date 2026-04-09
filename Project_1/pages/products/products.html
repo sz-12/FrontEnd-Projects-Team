@@ -3,22 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - PureLoom Naturals</title>
     <link rel="stylesheet" href="../styles.css">
-    <title>Products</title>
+    <link rel="stylesheet" href="products.css">
 </head>
 <body>
-    <header>
 
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">PureLoom Naturals</div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="../../index.html">Home</a></li>
+                        <li><a href="../about/about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="../contact/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <section>
-            <p>This page contains product details - done by Sara</p>
-        </section>
-    </main>
-    
-    <footer>
+    <main class="products-main">
 
+        <!-- Page Header -->
+        <div class="products-hero">
+            <p class="products-label">What we make</p>
+            <h1 class="products-title">Our Collections</h1>
+            <p class="products-tagline">Handmade. Clean. Comforting.</p>
+        </div>
+
+        <!-- Category Cards -->
+        <div class="container">
+            <div class="category-grid">
+
+                <!-- Soaps -->
+                <a href="soap/soap.html" class="category-card">
+                    <div class="category-image-wrap">
+                        <img
+                            src="../images/rose_soap.jpg"
+                            alt="Handmade Soaps"
+                            class="category-image"
+                        >
+                        <div class="category-overlay"></div>
+                    </div>
+                    <div class="category-info">
+                    
+                        <h2 class="category-name">Handmade Soaps</h2>
+                        <p class="category-desc">Pure, gentle bars crafted for every skin type.</p>
+                        <span class="category-btn">Shop Soaps →</span>
+                    </div>
+                </a>
+
+                <!-- Candles -->
+                <a href="candle/candle.html" class="category-card">
+                    <div class="category-image-wrap">
+                        <img
+                            src="../images/vanilla_candle.png"
+                            alt="Soy Candles"
+                            class="category-image"
+                        >
+                        <div class="category-overlay"></div>
+                    </div>
+                    <div class="category-info">
+                    
+                        <h2 class="category-name">Soy Candles</h2>
+                        <p class="category-desc">Hand-poured candles that fill your space with calm.</p>
+                        <span class="category-btn">Shop Candles →</span>
+                    </div>
+                </a>
+
+                <!-- Perfumes -->
+                
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 PureLoom Naturals. All rights reserved.</p>
+        </div>
     </footer>
+
 </body>
 </html>
