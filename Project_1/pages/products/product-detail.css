@@ -1,8 +1,60 @@
-/* ===========================
-   product-detail.css — PureLoom Naturals
-   Individual product detail page styles.
-   Shared styles live in styles.css
-=========================== */
+@font-face {
+    font-family: 'RobotoExtraBold';
+    src: url(../../fonts/Roboto-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url(../../fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url(../../fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 16px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.header h1 {
+    font-family: 'RobotoExtraBold', sans-serif;
+    color: #F9FaF8;
+}
+
+.nav {
+    display: block; 
+}
+
+.nav ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+
+.nav a {
+    font-family: 'RobotoRegular', sans-serif;
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    color: #F9FAF8;
+}
 
 .detail-main {
     background-color: #F6F0E6;
@@ -10,12 +62,10 @@
     min-height: 80vh;
 }
 
-/* Back Link */
 .back-link {
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RobotoBold', sans-serif;
     font-size: 13px;
-    font-weight: 600;
     color: #2E4A3A;
     text-decoration: none;
     letter-spacing: 1px;
@@ -28,14 +78,12 @@
     color: #C89B3C;
 }
 
-/* Layout */
 .detail-layout {
     display: flex;
     gap: 64px;
     align-items: flex-start;
 }
 
-/* Image Side */
 .detail-image-wrap {
     position: relative;
     flex: 1;
@@ -55,24 +103,20 @@
     left: 20px;
     background-color: #2E4A3A;
     color: #F6F0E6;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RobotoBold', sans-serif;
     font-size: 11px;
-    font-weight: 600;
     letter-spacing: 2px;
-    text-transform: uppercase;
     padding: 6px 14px;
     border-radius: 4px;
 }
 
-/* Info Side */
 .detail-info {
     flex: 1;
 }
 
 .detail-category {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RobotoExtraBold', sans-serif;
     font-size: 12px;
-    font-weight: 600;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #C89B3C;
@@ -80,18 +124,16 @@
 }
 
 .detail-name {
-    font-family: 'Playfair Display', serif;
+    font-family: 'RobotoBold', sans-serif;
     font-size: 42px;
-    font-weight: 700;
     color: #1F1F1F;
     line-height: 1.2;
     margin-bottom: 16px;
 }
 
 .detail-price {
-    font-family: 'Playfair Display', serif;
+    font-family: 'RobotoRegular', sans-serif;
     font-size: 28px;
-    font-weight: 400;
     color: #2E4A3A;
     margin-bottom: 24px;
 }
@@ -103,31 +145,27 @@
 }
 
 .detail-description {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RobotoRegular', sans-serif;
     font-size: 15px;
-    font-weight: 300;
     color: #1F1F1F;
     line-height: 1.8;
     margin-bottom: 32px;
 }
 
-/* Sections */
 .detail-section {
     margin-bottom: 28px;
 }
 
 .detail-section-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'RobotoBold', serif;
     font-size: 18px;
-    font-weight: 700;
     color: #2E4A3A;
     margin-bottom: 10px;
 }
 
 .detail-ingredients {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RobotoRegular', sans-serif;
     font-size: 14px;
-    font-weight: 300;
     color: #1F1F1F;
     line-height: 1.7;
 }
@@ -139,9 +177,8 @@
 }
 
 .detail-highlights li {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RobotoRegular', sans-serif;
     font-size: 14px;
-    font-weight: 300;
     color: #1F1F1F;
     padding: 5px 0;
     line-height: 1.5;
@@ -153,7 +190,6 @@
     font-weight: 600;
 }
 
-/* Tags */
 .detail-tags {
     display: flex;
     flex-wrap: wrap;
@@ -162,18 +198,26 @@
 }
 
 .tag {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RobotoBold', sans-serif;
     font-size: 11px;
-    font-weight: 600;
     letter-spacing: 1px;
-    text-transform: uppercase;
     color: #2E4A3A;
     border: 1px solid #2E4A3A;
     padding: 5px 14px;
     border-radius: 20px;
 }
 
-/* Responsive */
+footer {
+    background-color: #1F2937;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.footer p {
+    font-family: 'RobotoLight', sans-serif;
+    color: #E5E7EB;
+}
+
 @media (max-width: 768px) {
     .detail-layout {
         flex-direction: column;
