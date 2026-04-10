@@ -148,7 +148,7 @@ PureLoom Naturals creates thoughtfully handmade soaps, soy candles, and perfumes
 
 ## Installation
 
-The assignment can be accessed using this link: 
+The assignment can be accessed using this link: [link](https://sz-12.github.io/FrontEnd-Projects-Team/Project_1)
 
 The assignment can be cloned from here by opening folder [Project_1]( https://github.com/sz-12/FrontEnd-Projects-Team )
 
