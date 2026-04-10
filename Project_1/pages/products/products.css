@@ -1,11 +1,8 @@
-
-
 .products-main {
     background-color: #F6F0E6;
     padding-bottom: 100px;
 }
 
-/* Hero */
 .products-hero {
     background-color: #2E4A3A;
     padding: 72px 20px 56px;
@@ -40,7 +37,6 @@
     font-style: italic;
 }
 
-/* Category Grid */
 .category-grid {
     display: flex;
     gap: 28px;
@@ -48,7 +44,6 @@
     flex-wrap: wrap;
 }
 
-/* Category Card */
 .category-card {
     text-decoration: none;
     width: 320px;
@@ -66,7 +61,6 @@
     box-shadow: 0 14px 40px rgba(46, 74, 58, 0.2);
 }
 
-/* Image */
 .category-image-wrap {
     position: relative;
     width: 100%;
@@ -95,7 +89,6 @@
     background: linear-gradient(to bottom, transparent 40%, rgba(31, 31, 31, 0.3) 100%);
 }
 
-/* Info */
 .category-info {
     padding: 24px 26px 28px;
     background-color: #fff;
@@ -145,7 +138,6 @@
     color: #C89B3C;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .products-title {
         font-size: 36px;
