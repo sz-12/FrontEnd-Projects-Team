@@ -1,5 +1,7 @@
 # CSS Assignment - PureLoom Naturals
 
+## ## 🌐 Live Preview:  https://sz-12.github.io/FrontEnd-Projects-Team/
+
 ## About PureLoom Naturals
 
 PureLoom Naturals creates thoughtfully handmade soaps, soy candles, and perfumes using carefully selected ingredients. The brand celebrates simple rituals, clean formulations, and understated luxury inspired by nature.
