@@ -1,10 +1,8 @@
-
 .soap-main {
     background-color: #F6F0E6;
     padding-bottom: 100px;
 }
 
-/* Hero */
 .soap-hero {
     background-color: #2E4A3A;
     padding: 64px 20px 48px;
@@ -57,7 +55,6 @@
     color: #C89B3C;
 }
 
-/* Grid */
 .soap-grid {
     display: flex;
     flex-wrap: wrap;
@@ -65,7 +62,6 @@
     justify-content: center;
 }
 
-/* Card */
 .soap-card {
     text-decoration: none;
     width: 300px;
@@ -83,7 +79,6 @@
     transform: translateY(-4px);
 }
 
-/* Image */
 .soap-card-image-wrap {
     position: relative;
     width: 100%;
@@ -103,7 +98,6 @@
     transform: scale(1.05);
 }
 
-/* Hover overlay */
 .soap-card-hover {
     position: absolute;
     top: 0;
@@ -134,7 +128,6 @@
     border-radius: 4px;
 }
 
-/* Info */
 .soap-card-info {
     padding: 20px 22px 24px;
 }
@@ -163,7 +156,6 @@
     color: #2E4A3A;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .soap-hero-title {
         font-size: 36px;

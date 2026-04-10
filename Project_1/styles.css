@@ -110,8 +110,8 @@ body {
 }
 
 .hero-subtitle {
+    font-family: 'RobotoRegular', sans-serif;
     color: #e5e7eb;
-    font-size: 18px;
     margin-bottom: 24px;
     line-height: 1.5;
 }
@@ -136,11 +136,9 @@ body {
 }
 
 .hero-image {
-    flex: 1;
-    background-color: #6b7280;
+    background-color: #1F2937;
     height: 240px;
     display: flex;
-    align-items: center;
     justify-content: center;
     color: #e5e7eb;
     font-size: 18px;
