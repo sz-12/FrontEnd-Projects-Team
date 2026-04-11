@@ -23,7 +23,7 @@
     src: url(../../fonts/Roboto-Light.ttf) format('truetype');
 }
 
-.header {
+/* .header {
     background-color: #1F2937;
     padding: 16px 0;
 }
@@ -63,7 +63,7 @@
 
 .nav a:hover {
     color: #F9FAF8;
-}
+} */
 
 .about-content {
     padding: 64px 0;
