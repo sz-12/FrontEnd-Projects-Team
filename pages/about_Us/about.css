@@ -138,7 +138,7 @@ button {
     padding: 8px 24px;
 }
 
-footer {
+/* footer {
     background-color: #1F2937;
     padding: 8px 0;
     text-align: center;
@@ -147,7 +147,7 @@ footer {
 .footer p {
     font-family: 'RobotoLight', sans-serif;
     color: #E5E7EB;
-}
+} */
 
 @media (max-width: 768px) {
     .values {
