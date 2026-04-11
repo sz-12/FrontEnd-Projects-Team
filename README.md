@@ -1,6 +1,6 @@
 # CSS Assignment - PureLoom Naturals
 
-## ## 🌐 Live Preview:  https://sz-12.github.io/FrontEnd-Projects-Team/Project_1
+## ## 🌐 Live Preview:  https://sz-12.github.io/FrontEnd-Projects-Team
 
 ## About PureLoom Naturals
 
