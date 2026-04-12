@@ -1,3 +1,28 @@
+@font-face {
+    font-family: 'RobotoExtraBold';
+    src: url(fonts/Roboto-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoLightItalic';
+    src: url(fonts/Roboto-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url(fonts/Roboto-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url(fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url(fonts/Roboto-Bold.ttf) format('truetype');
+}
+
 .products-main {
     background-color: #F6F0E6;
     padding-bottom: 100px;
@@ -11,7 +36,7 @@
 }
 
 .products-label {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RobotoLight', sans-serif;
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 4px;
@@ -21,7 +46,7 @@
 }
 
 .products-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'RobotoExtraBold', sans-serif;
     font-size: 52px;
     font-weight: 700;
     color: #F6F0E6;
@@ -29,7 +54,7 @@
 }
 
 .products-tagline {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RobotoLight', sans-serif;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
@@ -95,7 +120,7 @@
 }
 
 .category-count {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RobotoLight', sans-serif;
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 2px;
@@ -105,7 +130,7 @@
 }
 
 .category-name {
-    font-family: 'Playfair Display', serif;
+    font-family: 'RobotoExtraBold', sans-serif;
     font-size: 26px;
     font-weight: 700;
     color: #1F1F1F;
@@ -113,7 +138,7 @@
 }
 
 .category-desc {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RobotoLight', sans-serif;
     font-size: 13px;
     font-weight: 300;
     color: #6b7280;
@@ -123,7 +148,7 @@
 
 .category-btn {
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RobotoLight', sans-serif;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 1px;
