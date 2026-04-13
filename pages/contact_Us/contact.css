@@ -1,0 +1,112 @@
+.contact-main {
+    background-color: #F6F0E6;
+    padding-bottom: 24px;
+}
+
+.contact-hero {
+    background-color: #2E4A3A;
+    padding: 72px 20px 24px;
+    text-align: center;
+}
+
+.contact-label {
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: #C89B3C;
+    margin-bottom: 14px;
+}
+
+.contact-title {
+    font-family: 'RobotoBold', serif;
+    font-size: 52px;
+    color: #F6F0E6;
+    margin-bottom: 12px;
+}
+
+.contact-section {
+    padding: 48px 0;
+}
+
+.contact-row {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.contact-form {
+    flex: 1;
+}
+
+.contact-form h2 {
+    font-family: 'RobotoBold', sans-serif;
+    color: #2E4A3A;
+    margin-bottom: 10px;
+}
+
+.contact-form p {
+    font-family: 'RobotoRegular', sans-serif;
+    margin-bottom: 20px;
+    color: #4b5563;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form label {
+    font-family: 'RobotoLight', sans-serif;
+}
+
+.contact-form input,
+.contact-form select {
+    font-family: 'RobotoLight', sans-serif;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    margin-top: 10px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact-side {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-side img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-info h3 {
+    font-family: 'RobotoBold', sans-serif;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-family: 'RobotoLight', sans-serif;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .contact-row {
+        flex-direction: column;
+    }
+
+    .contact-form,
+    .contact-side {
+        width: 100%;
+    }
+}
