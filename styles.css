@@ -263,7 +263,7 @@ body {
     padding-bottom: 64px;
 }
 
-h2 {
+.info-heading {
     font-family: 'RobotoExtraBold', sans-serif;
     color: #1F2937;
     font-size: 36px;
@@ -360,21 +360,86 @@ button {
     padding: 8px 24px;
 }
 
-.about-content {
-    padding: 64px 0;
+.about-main {
+    background-color: #F6F0E6;
+    padding-bottom: 100px;
+}
+
+.about-hero {
+    background-color: #2E4A3A;
+    padding: 72px 20px 56px;
     text-align: center;
-    color: #1F2937;
+    margin-bottom: 72px;
 }
 
-.about-content h2 {
+.about-label {
     font-family: 'RobotoBold', sans-serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: #C89B3C;
+    margin-bottom: 14px;
 }
 
-.about-content p {
-    font-family: 'RobotoRegular', sans-serif;
-    max-width: 700px;
-    margin: 10px auto;
-    font-size: 18px;
+.about-title {
+    font-family: 'RobotoBold', serif;
+    font-size: 52px;
+    color: #F6F0E6;
+    margin-bottom: 12px;
+}
+
+.about-section {
+    padding: 60px 0;
+}
+
+.about-row {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 24px;
+    color: #2E4A3A;
+}
+
+.about-text p {
+    font-family: 'RobotoLight', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.values {
+    font-family: 'RobotoBold', sans-serif;
+    color: #2E4A3A;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 48px;
+}
+
+.value {
+    font-family: 'RobotoLight', sans-serif;
+    max-width: 200px;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -406,6 +471,20 @@ button {
     }
 
     nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-row.reverse {
+        flex-direction: column; /* override reverse on mobile */
+    }
+
+    .values {
         flex-direction: column;
         align-items: center;
     }
