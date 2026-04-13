@@ -1,3 +1,5 @@
+/*..products page + candle, soap, perfumes category pages..*/
+
 @font-face {
     font-family: 'RobotoExtraBold';
     src: url(fonts/Roboto-Black.ttf) format('truetype');
@@ -62,17 +64,38 @@
     font-style: italic;
 }
 
+.back-link {
+    display: inline-block;
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #df9a23;
+    text-decoration: none;
+    border-bottom: 1px solid #C89B3C;
+    padding-bottom: 2px;
+    transition: color 0.2s;
+    margin-top: 12px;
+}
+
+.back-link:hover {
+    color: #C89B3C;
+}
+
 .category-grid {
     display: flex;
-    gap: 28px;
+    gap: 40px;
     justify-content: center;
     flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
 }
 
 .category-card {
     text-decoration: none;
-    width: 320px;
-    border-radius: 14px;
+    width: 300px;
+    border-radius: 12px;
     overflow: hidden;
     background-color: #fff;
     box-shadow: 0 4px 24px rgba(46, 74, 58, 0.12);
@@ -89,7 +112,7 @@
 .category-image-wrap {
     position: relative;
     width: 100%;
-    height: 320px;
+    height: 280px;
     overflow: hidden;
 }
 
@@ -105,6 +128,36 @@
     transform: scale(1.06);
 }
 
+.category-card-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 74, 58, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.category-card:hover .category-card-hover {
+    opacity: 1;
+}
+
+.category-card-hover span {
+    font-family: 'RobotoRegular', sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #F6F0E6;
+    border: 1px solid #F6F0E6;
+    padding: 10px 24px;
+    border-radius: 4px;
+}
+
+
 .category-overlay {
     position: absolute;
     top: 0;
@@ -119,20 +172,10 @@
     background-color: #fff;
 }
 
-.category-count {
-    font-family: 'RobotoLight', sans-serif;
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #C89B3C;
-    margin-bottom: 8px;
-}
 
 .category-name {
-    font-family: 'RobotoExtraBold', sans-serif;
-    font-size: 26px;
-    font-weight: 700;
+    font-family: 'RobotoBold', serif;
+    font-size: 20px;
     color: #1F1F1F;
     margin-bottom: 8px;
 }
@@ -140,10 +183,15 @@
 .category-desc {
     font-family: 'RobotoLight', sans-serif;
     font-size: 13px;
-    font-weight: 300;
     color: #6b7280;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
+}
+
+.category-price {
+    font-family: 'RobotoRegular', serif;
+    font-size: 20px;
+    color: #2E4A3A;
 }
 
 .category-btn {
@@ -169,7 +217,7 @@
     }
 
     .category-grid {
-        gap: 20px;
+        gap: 24px;
     }
 
     .category-card {
