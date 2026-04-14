@@ -54,6 +54,10 @@
     color: #F9FAF8;
 }
 
+.dropdown-content a {
+    color: #1F2937;
+}
+
 .detail-main {
     background-color: #F6F0E6;
     padding: 48px 0 100px;
