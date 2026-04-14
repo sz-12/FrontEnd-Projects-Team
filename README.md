@@ -2,41 +2,56 @@
 
 ## ## 🌐 Live Preview:  https://sz-12.github.io/FrontEnd-Projects-Team
 
-## About PureLoom Naturals
+## About the Project
 
-PureLoom Naturals creates thoughtfully handmade soaps, soy candles, and perfumes using carefully selected ingredients. The brand celebrates simple rituals, clean formulations, and understated luxury inspired by nature.
+PureLoom Naturals is a handmade wellness brand selling soaps, soy candles, perfumes, and moisturizers.
+This is a multi-page front-end website built as a team CSS assignment, focusing on  HTML structure,  CSS architecture, and responsive design.
 
-### Core Values
-- Natural & honest ingredients
 
-- Handcrafted quality
 
-- Calm, everyday luxury
+## Pages
 
-- Clean, minimal aesthetics
-
-### Product Categories
-- Handmade Soaps – gentle, nourishing bars for daily care
-
-- Soy Candles – clean-burning scents for home comfort
-  
-- Perfumes – natural-inspired, skin-friendly fragrances
-
-- All products must feel cohesive, minimal, and premium.
+| Page | Description |
+|---|---|
+| `index.html` | Homepage with hero, product categories, quote, and CTA |
+| `about.html` | Brand story and core values |
+| `contact.html` | Contact form and reach info |
+| `products.html` | Category landing page (Soaps, Candles, Perfumes, Moisturizers) |
+| `candle.html` | Candle product grid |
+| `soap.html` | Soap product grid |
+| `perfumes.html` | Perfume product grid |
+| `moisturizer.html` | Moisturizer product grid |
+| Individual detail pages | One page per product with full description |
 
 ---
 
 ## Tech Stack
 
-- HTML
+- HTML5 (semantic elements: `header`, `nav`, `main`, `section`, `article`, `footer`, `blockquote`, `cite`, `ul/li`)
+- CSS3 (Flexbox, custom fonts, media queries, transitions, sticky header)
+- Google Fonts — Roboto family (self-hosted)
+- No frameworks or JavaScript libraries
 
-- CSS
+---
+
+## CSS Architecture
+
+| File | Covers |
+|---|---|
+| `styles.css` | Global: reset, fonts, header, nav, hero, footer, back-to-top |
+| `products.css` | Products page + all category pages (candle, soap, perfumes, moisturizer) |
+| `product-detail.css` | All individual product detail pages |
+| `about.css` | About page specific styles |
+| `contact.css` | Contact page specific styles |
+
+---
+
 
 ## Installation
 
-The assignment can be accessed using this link: [link](https://sz-12.github.io/FrontEnd-Projects-Team/Project_1)
+The assignment can be accessed using this link: [link](https://sz-12.github.io/FrontEnd-Projects-Team)
 
-The assignment can be cloned from here by opening folder [Project_1]( https://github.com/sz-12/FrontEnd-Projects-Team )
+The assignment can be cloned from here 
 
 Basic setup needed - Visual Studio Code and browser
 
