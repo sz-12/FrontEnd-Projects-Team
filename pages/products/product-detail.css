@@ -16,12 +16,15 @@
 .header {
     background-color: #1F2937;
     padding: 16px 0;
+    position: relative;
+    z-index: 9999;
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .header h1 {
@@ -31,6 +34,8 @@
 
 .nav {
     display: block; 
+    position: relative;
+    z-index: 10000;
 }
 
 .nav ul {
@@ -62,6 +67,8 @@
     background-color: #F6F0E6;
     padding: 48px 0 100px;
     min-height: 80vh;
+    position: relative;
+    z-index: 1
 }
 
 .back-link {
@@ -233,5 +240,41 @@ footer {
 
     .detail-name {
         font-size: 32px;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 24px;
+        color: #F9FAF8;
+        cursor: pointer;
+    }
+
+    .nav {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #F9FAF8;
+        text-align: center;
+        z-index: 10000;
+    }
+
+    .nav a {
+        color: #1F2937;
+    }
+
+    .nav a:hover {
+        color: #3882F6;
+    }
+    .nav ul {
+        flex-direction: column;
+        gap: 16px;
+        padding: 20px 0;
+        color: #1F2937;
+    }
+
+    #menu-toggle:checked ~ .nav {
+        display: block;
     }
 }
