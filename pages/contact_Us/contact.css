@@ -1,148 +1,112 @@
-@font-face {
-    font-family: 'RobotoExtraBold';
-    src: url(../../fonts/Roboto-ExtraBold.ttf) format('truetype');
+.contact-main {
+    background-color: #F6F0E6;
+    padding-bottom: 24px;
 }
 
-@font-face {
-    font-family: 'RobotoRegular';
-    src: url(../../fonts/Roboto-Regular.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: 'RobotoBold';
-    src: url(../../fonts/Roboto-Bold.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: 'RobotoLight';
-    src: url(../../fonts/Roboto-Light.ttf) format('truetype');
-}
-
-.header {
-    background-color: #1F2937;
-    padding: 16px 0;
-}
-
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0 24px;
-}
-
-.header h1 {
-    font-family: 'RobotoExtraBold', sans-serif;
-    color: #F9FaF8;
-}
-
-.nav {
-    display: block; 
-}
-
-.nav ul {
-    display: flex;
-    gap: 24px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-}
-
-.nav a {
-    font-family: 'RobotoRegular', sans-serif;
-    color: #E5E7EB;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.nav a:hover {
-    color: #F9FAF8;
-}
-
-.contact-intro {
-    font-family: 'RobotoRegular', sans-serif;
-    color: #1F2937;
+.contact-hero {
+    background-color: #2E4A3A;
+    padding: 72px 20px 24px;
     text-align: center;
+}
+
+.contact-label {
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: #C89B3C;
+    margin-bottom: 14px;
+}
+
+.contact-title {
+    font-family: 'RobotoBold', serif;
+    font-size: 52px;
+    color: #F6F0E6;
+    margin-bottom: 12px;
+}
+
+.contact-section {
     padding: 48px 0;
 }
 
-.contact-form {
-    font-family: 'RobotoRegular', sans-serif;
-    padding: 24px 0;
+.contact-row {
     display: flex;
-    justify-content: center;
-}
-
-.form-box {
-    background-color: #E5E7EB;
-    padding: 40px;
-    border-radius: 10px;
-    width: 300px;
-}
-
-input, select, textarea {
-    font-family: 'RobotoRegular', sans-serif;
-    width: 100%;
-    padding: 8px;
-    border-radius: 5px;
-    border: 1px solid #E5E7EB;
-}
-
-.contact-info {
-    font-family: 'RobotoRegular', sans-serif;
-    text-align: center;
-    padding: 40px;
-}
-
-.action {
-    font-family: 'RobotoLight', sans-serif;
-    padding-bottom: 64px;
-}
-
-.action-style {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    padding: 48px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
+    gap: 50px;
     align-items: center;
-    margin: auto;
-    width: 70%;
 }
 
-.action-style h3 {
-    margin: 0;
+.contact-form {
+    flex: 1;
 }
 
-.action-style p {
-    margin: 4px 0 0 0;
-}
-
-button {
+.contact-form h2 {
     font-family: 'RobotoBold', sans-serif;
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border-radius: 8px;
-    border:2px solid #F9FAF8;
-    padding: 8px 24px;
+    color: #2E4A3A;
+    margin-bottom: 10px;
 }
 
-footer {
-    background-color: #1F2937;
-    padding: 8px 0;
+.contact-form p {
+    font-family: 'RobotoRegular', sans-serif;
+    margin-bottom: 20px;
+    color: #4b5563;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form label {
+    font-family: 'RobotoLight', sans-serif;
+}
+
+.contact-form input,
+.contact-form select {
+    font-family: 'RobotoLight', sans-serif;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    margin-top: 10px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact-side {
+    flex: 1;
     text-align: center;
 }
 
-.footer p {
-    font-family: 'RobotoLight', sans-serif;
-    color: #E5E7EB;
+.contact-side img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
+
+.contact-info h3 {
+    font-family: 'RobotoBold', sans-serif;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-family: 'RobotoLight', sans-serif;
+    margin-bottom: 10px;
+}
+
 
 @media (max-width: 768px) {
-    .values {
+    .contact-row {
         flex-direction: column;
-        align-items: center;
+    }
+
+    .contact-form,
+    .contact-side {
+        width: 100%;
     }
 }

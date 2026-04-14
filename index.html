@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Landing Page</title>
+    <title>PureLoom Home</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body id="top">
@@ -12,11 +12,23 @@
       <div class="container">
         <div class="header-content">
           <a href="index.html" class="logo">PureLoom Naturals</a>
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="hamburger">
+            ☰
+          </label>
           <nav class="nav">
             <ul>
               <li><a href="index.html">Home</a></li>
               <li><a href="pages/about_Us/about.html">About</a></li>
-              <li><a href="pages/products/products.html">Products</a></li>
+              <li class="dropdown">
+                <a href="pages/products/products.html">Products</a>
+                <div class="dropdown-content">
+                  <a href="pages/products/candle/candle.html">Candles</a>
+                  <a href="pages/products/soap/soap.html">Soaps</a>
+                  <a href="pages/products/perfumes/perfumes.html">Perfumes</a>
+                  <a href="pages/products/moisturizer/moisturizer.html">Moisturizers</a>
+                </div>
+              </li>
               <li><a href="pages/contact_Us/contact.html">Contact</a></li>
             </ul>
           </nav>
@@ -25,71 +37,77 @@
     </header>
 
     <main>
-      <section class="hero">
-        <div class="container">
-          <div class="hero-content">
-            <div class="hero-text">
-              <h1 class="hero-title">Your Daily Reset, Naturally Made</h1>
-              <p class="hero-subtitle">
-                Hydrating handmade soaps, clean-burning soy candles, and refined perfumes—made for daily rituals.
-              </p>
-              <a href="pages/products/products.html"><button class="btn btn-primary">Shop Now</button></a>
-            </div>
-            <div class="hero-image">
-              <img
-                src="images/backgroundimage.png"
-                alt="Handcrafted Organic Soaps & Candles"
-              />
+        <section class="hero">
+          <div class="container">
+            <div class="hero-content">
+              <div class="hero-text">
+                <h1 class="hero-title">Your Daily Reset, Naturally Made</h1>
+                <p class="hero-subtitle">
+                  Hydrating handmade soaps, clean-burning soy candles, and refined perfumes—made for daily rituals.
+                </p>
+                <a href="pages/products/products.html"><button class="btn btn-primary">Shop Now</button></a>
+              </div>
+              <div class="hero-image">
+                <img
+                  src="images/backgroundimage.png"
+                  alt="Handcrafted Organic Soaps & Candles"
+                />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
         <section class="info-section">
-            <h2>When scent meets expectations</h2>
+            <h2 class="info-heading">When scent meets expectations</h2>
             <div class="cards">
                 <a href="pages/products/soap/soap.html" class="card">
-                    <div class="box">
+                    <figure class="card-image">
                         <img src="images/soap_images/soaps_LandingPage.png" alt="Soap">
-                    </div>
+                    </figure>
                     <p>Soaps</p>
                 </a>
                 <a href="pages/products/candle/candle.html" class="card">
-                    <div class="box">
+                    <figure class="card-image">
                         <img src="images/candle_images/candle_LandingPage.png" alt="Candles">
-                    </div>
+                    </figure>
                     <p>Candles</p>
                 </a>
                 <a href="pages/products/perfumes/perfumes.html" class="card">
-                    <div class="box">
+                    <figure class="card-image">
                         <img src="images/perfumes_Images/perfume_LandingPage.png" alt="Perfume">
-                    </div>
+                    </figure>
                     <p>Perfumes</p>
+                </a>
+                <a href="pages/products/moisturizer/moisturizer.html" class="card">
+                    <figure class="card-image">
+                        <img src="images/moisturizer_Images/moisturizer_LandingPage.png" alt="Perfume">
+                    </figure>
+                    <p>Moisturizers</p>
                 </a>
             </div>
         </section>
 
         <section class="quote-section">
-            <div class="quotes">
+            <article class="quotes">
                 <p class="quote">Scent is the most powerful trigger of memory — it lingers long after the moment has passed.</p>    
                 <p class="quote-author"><strong>- Inspired by Patrick Süskind</strong></p>
-            </div>
+            </article>
         </section>
 
         <section class="action">
             <div class="action-style">
-                <div>
+                <article>
                     <h3>The big EASTER SALE is here! Grab your favorite item !!</h3>
                     <p>Check out our product by clicking any of the items!</p>
-                </div>
+                </article>
                 <a href="pages/products/products.html">
                     <button>View Products</button>
                 </a>
             </div>
         </section>
     </main> 
-      <footer class="footer">
+    <footer class="footer">
         <div class="container">
-          <p>&copy; 2026 PureLoom Naturals. All rights reserved.</p>
+            <p>&copy; 2026 PureLoom Naturals. All rights reserved.</p>
         </div>
       </footer>
     <a href="#top" class="back-to-top">Top</a>

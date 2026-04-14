@@ -1,155 +1,93 @@
-@font-face {
-    font-family: 'RobotoExtraBold';
-    src: url(../../fonts/Roboto-ExtraBold.ttf) format('truetype');
+.about-main {
+    background-color: #F6F0E6;
+    padding-bottom: 24px;
 }
 
-@font-face {
-    font-family: 'RobotoRegular';
-    src: url(../../fonts/Roboto-Regular.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: 'RobotoBold';
-    src: url(../../fonts/Roboto-Bold.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: 'RobotoLightItalic';
-    src: url(../../fonts/Roboto-LightItalic.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: 'RobotoLight';
-    src: url(../../fonts/Roboto-Light.ttf) format('truetype');
-}
-
-.header {
-    background-color: #1F2937;
-    padding: 16px 0;
-}
-
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0 24px;
-}
-
-.header h1 {
-    font-family: 'RobotoExtraBold', sans-serif;
-    color: #F9FaF8;
-}
-
-.nav {
-    display: block; 
-}
-
-.nav ul {
-    display: flex;
-    gap: 24px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-}
-
-.nav a {
-    font-family: 'RobotoRegular', sans-serif;
-    color: #E5E7EB;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.nav a:hover {
-    color: #F9FAF8;
-}
-
-.about-content {
-    padding: 64px 0;
+.about-hero {
+    background-color: #2E4A3A;
+    padding: 72px 20px 24px;
     text-align: center;
-    color: #1F2937;
 }
 
-.about-content h2 {
+.about-label {
     font-family: 'RobotoBold', sans-serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: #C89B3C;
+    margin-bottom: 14px;
 }
 
-.about-content p {
-    font-family: 'RobotoRegular', sans-serif;
-    max-width: 700px;
-    margin: 10px auto;
-    font-size: 18px;
+.about-title {
+    font-family: 'RobotoBold', serif;
+    font-size: 52px;
+    color: #F6F0E6;
+    margin-bottom: 12px;
 }
 
-.about-values {
-    padding-bottom: 64px;
+.about-section {
+    padding: 48px 0;
+}
+
+.about-row {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 24px;
+    color: #2E4A3A;
+}
+
+.about-text p {
+    font-family: 'RobotoLight', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-row.reverse {
+    flex-direction: row-reverse;
 }
 
 .values {
     font-family: 'RobotoBold', sans-serif;
+    color: #2E4A3A;
     display: flex;
     justify-content: center;
     gap: 40px;
-    padding: 48px;
-    background-color: #E5E7EB;
 }
 
 .value {
+    font-family: 'RobotoLight', sans-serif;
     max-width: 200px;
     text-align: center;
 }
 
-.value p {
-    font-family: 'RobotoLightItalic', sans-serif;
-}
-
-.action {
-    font-family: 'RobotoLight', sans-serif;
-    padding-bottom: 64px;
-}
-
-.action-style {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    padding: 48px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    width: 70%;
-}
-
-.action-style h3 {
-    margin: 0;
-}
-
-.action-style p {
-    margin: 4px 0 0 0;
-}
-
-button {
-    font-family: 'RobotoBold', sans-serif;
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border-radius: 8px;
-    border:2px solid #F9FAF8;
-    padding: 8px 24px;
-}
-
-footer {
-    background-color: #1F2937;
-    padding: 8px 0;
-    text-align: center;
-}
-
-.footer p {
-    font-family: 'RobotoLight', sans-serif;
-    color: #E5E7EB;
-}
-
 @media (max-width: 768px) {
+    .about-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-row.reverse {
+        flex-direction: column;
+    }
+
     .values {
         flex-direction: column;
         align-items: center;
