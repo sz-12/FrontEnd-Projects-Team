@@ -203,6 +203,7 @@
     border: 1px solid #2E4A3A;
     padding: 5px 14px;
     border-radius: 20px;
+    list-style: none;
 }
 
 footer {
