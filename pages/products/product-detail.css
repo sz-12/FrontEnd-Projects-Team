@@ -16,8 +16,10 @@
 .header {
     background-color: #1F2937;
     padding: 16px 0;
-    position: relative;
-    z-index: 9999;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
 
 .header-content {
