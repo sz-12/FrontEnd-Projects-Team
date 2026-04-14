@@ -51,7 +51,7 @@ This is a multi-page front-end website built as a team CSS assignment, focusing 
 
 The assignment can be accessed using this link: [link](https://sz-12.github.io/FrontEnd-Projects-Team)
 
-The assignment can be cloned from here 
+The assignment can be cloned from here https://github.com/sz-12/FrontEnd-Projects-Team.git
 
 Basic setup needed - Visual Studio Code and browser
 
