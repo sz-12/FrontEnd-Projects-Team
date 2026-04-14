@@ -23,6 +23,27 @@
     src: url(fonts/Roboto-Bold.ttf) format('truetype');
 }
 
+html {
+
+    scroll-behavior: smooth;
+}
+
+.back-to-top {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C89B3C;
+    padding: 15px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -48,6 +69,10 @@ body {
 .header {
     background-color: #1f2937;
     padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
 
 .header-content {
@@ -367,6 +392,7 @@ button {
     margin: 0 auto;
     padding: 0 20px;
 }
+
 
 @media (max-width: 768px) {
     .hero-content {
