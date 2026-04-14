@@ -222,18 +222,20 @@ a {
 .quotes {
     color: #1F2937;
     background-color: #E5E7EB;
-    padding: 128px;
+    padding: 100px;
 }
 
 .quote {
     font-family: 'RobotoLightItalic', sans-serif;
     font-size: 36px;
+    padding: 24px;
 }
 
 .quote-author {
     font-family: 'RobotoBold', sans-serif;
     text-align: right;
     font-size: 24px;
+    padding: 24px;
 }
 
 .action {
@@ -291,6 +293,7 @@ button {
   text-decoration: none;
   display: block;
   text-align: left;
+  width: 100%;
 }
 
 .dropdown-content a:hover {
@@ -299,6 +302,17 @@ button {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  color: #F9FAF8;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -314,14 +328,43 @@ button {
         width: 100%;
     }
 
-    nav {
+    .hamburger {
+        display: block;
+        font-size: 24px;
+        color: #F9FAF8;
+        cursor: pointer;
+    }
+
+    .nav {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #F9FAF8;
+        text-align: center;
+    }
+
+    .nav a {
+        color: #1F2937;
+    }
+
+    .nav a:hover {
+        color: #3882F6;
+    }
+    .nav ul {
         flex-direction: column;
-        align-items: center;
+        gap: 16px;
+        padding: 20px 0;
+        color: #1F2937;
+    }
+
+    #menu-toggle:checked ~ .nav {
+        display: block;
     }
 
     .cards {
         display: grid;
-        justify-content: center;
         justify-items: center;
         grid-template-columns: repeat(2, 1fr);
     }
