@@ -24,7 +24,6 @@
 }
 
 html {
-
     scroll-behavior: smooth;
 }
 
@@ -339,7 +338,6 @@ button {
   color: #F9FAF8;
   cursor: pointer;
 }
-
 
 @media (max-width: 768px) {
     .hero-content {

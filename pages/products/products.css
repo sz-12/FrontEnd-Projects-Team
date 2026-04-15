@@ -1,5 +1,3 @@
-/*..products page + candle, soap, perfumes category pages..*/
-
 @font-face {
     font-family: 'RobotoExtraBold';
     src: url(fonts/Roboto-Black.ttf) format('truetype');
@@ -176,7 +174,6 @@
     border-radius: 4px;
 }
 
-
 .category-overlay {
     position: absolute;
     top: 0;
@@ -190,7 +187,6 @@
     padding: 24px 26px 28px;
     background-color: #fff;
 }
-
 
 .category-name {
     font-family: 'RobotoBold', serif;
