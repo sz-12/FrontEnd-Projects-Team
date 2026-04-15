@@ -1,13 +1,11 @@
 # CSS Assignment - PureLoom Naturals
 
-## ## 🌐 Live Preview:  https://sz-12.github.io/FrontEnd-Projects-Team
+## 🌐 Live Preview:  https://sz-12.github.io/FrontEnd-Projects-Team
 
 ## About the Project
 
 PureLoom Naturals is a handmade wellness brand selling soaps, soy candles, perfumes, and moisturizers.
 This is a multi-page front-end website built as a team CSS assignment, focusing on  HTML structure,  CSS architecture, and responsive design.
-
-
 
 ## Pages
 
@@ -27,10 +25,8 @@ This is a multi-page front-end website built as a team CSS assignment, focusing 
 
 ## Tech Stack
 
-- HTML5 (semantic elements: `header`, `nav`, `main`, `section`, `article`, `footer`, `blockquote`, `cite`, `ul/li`)
-- CSS3 (Flexbox, custom fonts, media queries, transitions, sticky header)
-- Google Fonts — Roboto family (self-hosted)
-- No frameworks or JavaScript libraries
+- HTML5
+- CSS3 
 
 ---
 
